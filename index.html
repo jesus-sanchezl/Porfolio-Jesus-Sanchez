@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="./assests/img/favicon (4).ico" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maxim-scale=1"
+        />
+
+
+
+        <link
+            rel="stylesheet"
+            href="./assests/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./assests/fonts/roboto/roboto.css" />
+        <link rel="stylesheet" href="./assests/fonts/OpenSans/openSans.css" />
+
+        <link rel="stylesheet" href="./assests/css/reset.css" />
+        <link rel="stylesheet" href="./assests/css/style.css" />
+        <link rel="stylesheet" href="./assests/css/responsive.css" />
+
+
+
+        <script src="./js/buttonScroll.js" defer></script>
+        <script src="./js/menuResponsive.js" defer></script>
+
+        <title>Portfolio | Jesus Sanchez</title>
+    </head>
+    <body>
+
+
+        <!-- MENU NAVEGACION RESPONSIVE -->
+
+        <div class="menu-responsive">
+            <button class="menu-responsive__close">
+                <i class="menu-responsibe__icon-close fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="menu-responsive__body">
+                <nav class="menu-responsive__nav">
+                    <ul class="menu-responsive__list">
+                        <li class="menu-responsive__item">
+                            <a href="./index.html" class="menu-responsive__link"
+                                >Home</a
+                            >
+                        </li>
+
+                        <li class="menu-responsive__item">
+                            <a
+                                href="./sobre-mi.html"
+                                class="menu-responsive_link"
+                                >Sobre mí</a
+                            >
+                        </li>
+
+                        <li class="menu-responsive__item">
+                            <a
+                                href="./proyectos.html"
+                                class="menu-responsive__link"
+                                >Proyectos</a
+                            >
+                        </li>
+
+                        <li class="menu-responsive__item">
+                            <a
+                                href="./contacto.html"
+                                class="menu-responsive__link"
+                                >Contacto</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+
+        <!-- LAYOUT PRINCIPAL O ESTRUCTURA PRINCIAL -->
+
+        <div class="layout">
+            <section class="layout__menu">
+                <header class="menu__navbar">
+                    <!-- LOGO -->
+                    <div class="navbar__logo">
+                        <i class="navbar__icon fa-solid fa-code"></i>
+                    </div>
+
+                    <!--  BOTÓN DE MENÚ RESPONSIVE-->
+
+                    <div class="navbar__responsive-btn">
+                        <button class="responsive-btn__wrap">
+                            <span class="responsive-btn__line"></span>
+                            <span class="responsive-btn__line"></span>
+                            <span class="responsive-btn__line"></span>
+                        </button>
+                    </div>
+
+                    <!-- NAVEGACION -->
+                    <nav class="navbar__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="./index.html" class="nav__title"
+                                    >Home</a
+                                >
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="./sobre-mi.html" class="nav__title"
+                                    >Sobre mí</a
+                                >
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="./proyectos.html" class="nav__title"
+                                    >Proyectos</a
+                                >
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="./contacto.html" class="nav__title"
+                                    >Contacto</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </section>
+
+            <!-- USER-INFO-->
+
+            <section class="layout__user-info">
+                <div class="user-info__content">
+                    <h1 class="user-info__name">Jesús Sánchez</h1>
+                    <h4 class="user-info__job">Desarrollador Web </h4>
+
+                    <a
+                        href="./assests/docs/currículum.pdf"
+                        download="Curriculum_Jesus_Sanchez.pdf"
+                        class="user-info__btn"
+                        >Descargar CV</a
+                    >
+                </div>
+
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="mailto:jesus-sanchezl@outlook.es" class="social__link">
+                                <i
+                                    class="social__icon fa-regular fa-envelope"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/jesus-sanchezl/" class="social__link">
+                                <i
+                                    class="social__icon fa-brands fa-linkedin"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/jesus-sanchezl" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="user-info__img">
+                    <img
+                        src="./assests/img/Imagen1.jpg"
+                        class="user-info__img-principal"
+                        alt="imagen principal"
+                    />
+                </div>
+            </section>
+
+            <!-- SERVICIOS -->
+
+            <section class="layout__services">
+                <header class="services__header">
+                    <h2 class="services__title">Servicio</h2>
+                </header>
+
+                <div class="services__list">
+                    <article class="services__service">
+                        <div class="service__content">
+                            <i class="service__icon fa-solid fa-code"></i>
+                            <h3 class="service__title">Desarrollo Web</h3>
+                            <p class="service__description">
+                                HTML, CSS, JavaScript, ... y lo que
+                                está por venir... La actitud de aprendizaje
+                                continuo es la clave del éxito.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="services__service">
+                        <div class="service__content">
+                            <i
+                                class="service__icon fa-regular fa-lightbulb"
+                            ></i>
+                            
+                            <h3 class="service__title">
+                                Conocimiento De Negocio
+                            </h3>
+
+                            <p class="service__description">
+                                En la actualidad, es fundamental para un
+                                desarrollador conocer y comprender los
+                                propósitos y metas de las personas u
+                                organizaciones con las que trabaja.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="services__service">
+                        <div class="service__content">
+                            <i class="service__icon fa-solid fa-robot"></i>
+                        
+                            <h3 class="service__title">Diferente</h3>
+
+                            <p class="service__description">
+                                Desarrollador web Junior, profesional senior ...
+                                dando un salto mortal hacia una nueva carrera...
+                                porque siempre existe la posibilidad de un nuevo
+                                comienzo cuando descubres una pasión que te
+                                inspira cada día.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- FORMACION  -->
+
+            <section class="layout__education">
+                <header class="education__header">
+                    <h2 class="education__title">Formación</h2>
+                </header>
+
+                <div class="education__container">
+                    <section class="education__content">
+                        <div class="education__timelines">
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">
+                                        Enero 2023 - Agosto 2023
+                                    </h4>
+                                    <span class="timeline__compay"
+                                        >HACK A BOSS</span
+                                    >
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">
+                                        BOOTCAMP PROGRAMACIÓN WEB FULL STACK
+                                        JAVASCRIPT
+                                    </h3>
+                                    <p class="timeline__text">
+                                        Programa basado en la metodología
+                                        'Learning by doing' que se enfoca en la
+                                        practica a través de la realización de
+                                        ejercicios y proyectos
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">
+                                        Enero 2019 - Mayo 2020
+                                    </h4>
+                                    <span class="timeline__compay"
+                                        >CESAE Business & Tourism School</span
+                                    >
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">
+                                        MÁSTER EN REVENUE MANAGEMENT, MARKETING
+                                        Y COMUNICACIÓN TURÍSTICA
+                                    </h3>
+                                    <p class="timeline__text">
+                                        Optimización de ingresos, estrategias de
+                                        marketing y comunicación para la gestión
+                                        turística eficiente y efectiva.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">
+                                        Septiembre 2004 - Junio 2007
+                                    </h4>
+                                    <span class="timeline__compay"
+                                        >Universidad de Salamanca</span
+                                    >
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">
+                                        DIPLOMATURA TURISMO
+                                    </h3>
+                                    <p class="timeline__text">
+                                        Programa académico centrado en turismo,
+                                        proporciona conocimientos
+                                        especializados, habilidades y
+                                        perspectivas necesarias para roles
+                                        turísticos profesionales.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- EXPERIENCIA -->
+
+            <section class="layout__jobs">
+                <header class="jobs__header">
+                    <h2 class="jobs__title">Experiencia</h2>
+                </header>
+
+                <div class="job__container">
+                    <section class="job__content">
+                        <div class="job__timelines">
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">
+                                        Julio 2011 - Actualidad
+                                    </h4>
+                                    <span class="timeline__compay"
+                                        >Hoteles Tecnológicos SA</span
+                                    >
+                                </header>
+
+                                <div class="timeline__divider--job"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">
+                                        RECEPCIONISTA | NIGHT AUDITOR
+                                    </h3>
+                                    <p class="timeline__text">
+                                        Coordinando la llegada y salida de
+                                        huéspedes, gestionando reservas,
+                                        resolviendo problemas y asistiendo,
+                                        proporcionando una experiencia
+                                        acogedora.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">
+                                        Mayo 2008 - Julio 2011
+                                    </h4>
+                                    <span class="timeline__compay"
+                                        >High Tech Holtes & Resort SA.</span
+                                    >
+                                </header>
+
+                                <div class="timeline__divider--job"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">
+                                        RECEPCIONISTA | NIGHT AUDITOR
+                                    </h3>
+                                    <p class="timeline__text">
+                                        Coordinando la llegada y salida de
+                                        huéspedes, gestionando reservas,
+                                        resolviendo problemas y asistiendo,
+                                        proporcionando una experiencia
+                                        acogedora.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- PROYECTOS -->
+
+            <section class="layout__projects">
+                <header class="projects__header">
+                    <h2 class="projects__title">Proyectos</h2>
+                </header>
+
+                <div class="projects__content">
+                    <div class="projects__all">
+                        <article class="projects__project">
+                            <div class="project__container-img">
+                                <img
+                                    src="./assests/img/img portfolio.png"
+                                    class="project__img"
+                                    alt="Imagen de un proyecto"
+                                />
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">Este Portfolio</h3>
+
+                                <div class="project__tags">
+                                                <p class="project__tag">Creación de este Portafolio</p>
+                                
+                                </div>
+
+                                <div class="project__icon">
+                                    <a href="#" class="project__icon-link">
+                                        <i
+                                            class="project__icon-github fa-brands fa-github"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__project">
+                            <div class="project__container-img">
+                                <img
+                                    src="assests/img/img luz.png"
+                                    class="project__img"
+                                    alt="Imagen de un proyecto"
+                                />
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">Consumo energético</h3>
+
+                                <div class="project__tags">
+                                                <p class="project__tag">Simulador de precio de la luz vs. consumo</p>
+
+                                </div>
+
+                                <div class="project__icon">
+                                    <a href="https://github.com/jesus-sanchezl/Proyecto-Luz" class="project__icon-link">
+                                        <i
+                                            class="project__icon-github fa-brands fa-github"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__project">
+                            <div class="project__container-img">
+                                <img
+                                    src="assests/img/img task app.png"
+                                    class="project__img"
+                                    alt="Imagen de un proyecto"
+                                />
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">TaskApp</h3>
+
+                                <div class="project__tags">
+                                    <p class="project__tag">Aplicación de tareas</p>
+
+                                </div>
+
+                                <div class="project__icon">
+                                    <a href="https://github.com/jesus-sanchezl/Task-App" class="project__icon-link">
+                                        <i
+                                            class="project__icon-github fa-brands fa-github"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACTO -->
+            <section class="layout__contact">
+                <header class="contact__header">
+                    <h2 class="contact__title">Contacto</h2>
+                </header>
+
+                <section class="contact__container">
+                    <div class="contact__form">
+                        <div class="form__group">
+                            <input
+                                type="text"
+                                class="form__input"
+                                name="name"
+                                required
+                                placeholder="Nombre"
+                            />
+                            <label for="name" class="form__label">Nombre</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input
+                                type="email"
+                                class="form__input"
+                                name="email"
+                                required
+                                placeholder="Email"
+                            />
+                            <label for="email" class="form__label">Email</label>
+                        </div>
+
+                        <div class="form__group form__group--textarea">
+                            <textarea
+                                class="form__input form__input--textarea"
+                                name="message"
+                                required
+                                placeholder="Mensaje"
+                            ></textarea>
+                            <label for="message" class="form__label"
+                                >Mensaje</label
+                            >
+                        </div>
+                    </div>
+
+                    <input
+                        type="submit"
+                        class="form__button"
+                        value="Enviar mensaje"
+                    />
+                </section>
+            </section>
+
+            <!-- FOOTER -->
+
+            <footer class="layout__footer">
+                <div class="footer__container">
+                    <section class="footer__top">
+                        <ul class="footer__social">
+                            <li class="social__item">
+                                <a href="mailto:jesus-sanchezl@outlook.es" class="social__footer">
+                                    <i
+                                        class="social__img fa-regular fa-envelope"
+                                    ></i>
+                                </a>
+                            </li>
+
+                            <li class="social__item">
+                                <a href="https://www.linkedin.com/in/jesus-sanchezl/" class="social__footer">
+                                    <i
+                                        class="social__img fa-brands fa-linkedin"
+                                    ></i>
+                                </a>
+                            </li>
+
+                            <li class="social__item">
+                                <a href="https://github.com/jesus-sanchezl" class="social__footer">
+                                    <i
+                                        class="social__img fa-brands fa-github"
+                                    ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="footer bottom">
+                        <div class="footer__copyrigth">
+                            <span class="coyright__text">
+                                &copy; 2024 Jesús Sánchez
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+
+            <!-- BOTON SCROLL -->
+
+            <button class="layout__button" id="scrollToTopBtn">
+                <i class="button__icon fa-solid fa-angles-up"></i>
+            </button>
+        </div>
+    </body>
+</html>

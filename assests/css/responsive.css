@@ -1,0 +1,243 @@
+@media (max-width: 1780px) {
+
+                .services__list {
+                    margin: 0 20rem;
+                }
+}
+            
+            
+@media (max-width: 1700px) {
+            
+.layout__projects {
+                                            
+                padding: 60px 10rem;
+                                            
+                }
+            
+}
+            
+@media (max-width: 1600px) {
+
+                .timeline__header {
+                                margin-left: 10rem;
+                }
+            
+                .timeline__divider,
+                .timeline__divider--job {
+                    left: 35%;
+                }
+                                        
+                            
+}
+            
+            
+            
+@media (max-width: 1390px) {
+                .services__list {
+                    margin: 0 10rem;
+                }
+            
+                .timeline__divider,
+                .timeline__divider--job {
+                        left: 36%;
+                }
+            
+}
+
+
+            
+@media (max-width: 1200px) {
+            
+                .layout {
+                            min-width: auto;
+                 
+                }
+
+                .navbar__nav,
+                .navbar__icon {
+                                display: none;
+                }
+
+                .navbar__responsive-btn {
+                                display: block;
+                }
+            
+                .layout__user-info {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                }
+            
+                .user-info__name::before {
+                                            
+                            top: 25rem;
+                                            
+                }
+            
+                .links__social {
+                            display: none;
+                }
+            
+                .user-info__img-principal {
+                            display: none;
+                }
+                
+                .services__list {
+                                            flex-direction: column;
+                }
+
+                .personal__info-container {
+                                flex-direction: column;
+                                
+                
+                }
+
+                .personal__info-img img {
+                                
+                                height: 100px;
+                            
+                                
+                            }
+                            
+                        
+}
+            
+            
+@media (max-width: 1100px) {
+            
+            .user-info__name {
+                            font-size: 3rem;
+            }
+            
+            .timeline__divider,
+            .timeline__divider--job {
+                    left: 37%;
+            }
+}
+            
+            
+@media (max-width: 1000px) {
+            
+                .timeline__divider,
+                .timeline__divider--job {
+                        left: 38%;
+                }
+            
+}
+            
+
+            
+            
+            
+            
+@media (max-width: 960px) {
+                            
+            .layout__user-info {
+                            margin: 0;
+                            padding: 0;
+            }
+            
+            .user-info__name::before {
+                                            
+                            top: 23rem;
+                            
+                        }
+            
+                        .user-info__name {
+                            font-size: 2.5rem;
+                        }
+            
+                        .timeline__divider,
+                        .timeline__divider--job {
+                                left: 39%;
+                        }
+}
+
+
+
+@media (max-width: 800px) {
+            
+                .timeline__divider,
+                .timeline__divider--job {
+                        left: 40%;
+                }
+
+                .personal__info-img img {
+                                
+                                display: none;
+                            
+                                
+                            }
+
+                .content__description {
+                                width: 600px;
+                                overflow: hidden;
+                            }
+
+}
+
+@media (max-width:700px) {
+            
+                                            
+                .timeline__divider,
+                .timeline__divider--job {
+                        left: 41%;
+                }
+
+                 .contact__form {
+                                padding:  5rem 5rem;
+                 }
+
+                 .content__description {
+                                width: 500px;
+                                overflow: hidden;
+                            }
+
+
+                
+}
+
+
+@media (max-width:650px) {
+            
+
+                 .timeline__divider,
+                .timeline__divider--job {
+                        left: 42%;
+                }
+
+
+
+
+}
+
+@media (max-width:600px) {
+            
+                .timeline__divider,
+                .timeline__divider--job {
+                        left: 43%;
+                }
+                                            
+
+}
+            
+            
+            
+@media (max-width: 570px) {
+            
+                            .user-info__name::before {
+                                            
+                                            display: none;
+                                            
+                                        }
+
+                                        .timeline__divider,
+                                        .timeline__divider--job {
+                                                display: none;
+                                        }
+            
+}
+
+
+
+
