@@ -8,8 +8,6 @@
             content="width=device-width, initial-scale=1, maxim-scale=1"
         />
 
-
-
         <link
             rel="stylesheet"
             href="./assests/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
@@ -21,16 +19,12 @@
         <link rel="stylesheet" href="./assests/css/style.css" />
         <link rel="stylesheet" href="./assests/css/responsive.css" />
 
-
-
         <script src="./js/buttonScroll.js" defer></script>
         <script src="./js/menuResponsive.js" defer></script>
 
         <title>Portfolio | Jesus Sanchez</title>
     </head>
     <body>
-
-
         <!-- MENU NAVEGACION RESPONSIVE -->
 
         <div class="menu-responsive">
@@ -74,8 +68,6 @@
                 </nav>
             </div>
         </div>
-
-
 
         <!-- LAYOUT PRINCIPAL O ESTRUCTURA PRINCIAL -->
 
@@ -133,7 +125,9 @@
             <section class="layout__user-info">
                 <div class="user-info__content">
                     <h1 class="user-info__name">Jesús Sánchez</h1>
-                    <h4 class="user-info__job">Desarrollador Web </h4>
+                    <h4 class="user-info__job">
+                        Desarrollador FullStack Junior
+                    </h4>
 
                     <a
                         href="./assests/docs/currículum.pdf"
@@ -146,7 +140,10 @@
                 <div class="user-info__links">
                     <ul class="links__social">
                         <li class="social__option">
-                            <a href="mailto:jesus-sanchezl@outlook.es" class="social__link">
+                            <a
+                                href="mailto:jesus-sanchezl@outlook.es"
+                                class="social__link" target="_blank"
+                            >
                                 <i
                                     class="social__icon fa-regular fa-envelope"
                                 ></i>
@@ -154,7 +151,12 @@
                         </li>
 
                         <li class="social__option">
-                            <a href="https://www.linkedin.com/in/jesus-sanchezl/" class="social__link">
+                            <a
+                                href="https://www.linkedin.com/in/jesus-sanchezl/"
+                                class="social__link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i
                                     class="social__icon fa-brands fa-linkedin"
                                 ></i>
@@ -162,7 +164,12 @@
                         </li>
 
                         <li class="social__option">
-                            <a href="https://github.com/jesus-sanchezl" class="social__link">
+                            <a
+                                href="https://github.com/jesus-sanchezl"
+                                class="social__link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <i class="social__icon fa-brands fa-github"></i>
                             </a>
                         </li>
@@ -182,7 +189,7 @@
 
             <section class="layout__services">
                 <header class="services__header">
-                    <h2 class="services__title">Servicio</h2>
+                    <h2 class="services__title">Enfoque</h2>
                 </header>
 
                 <div class="services__list">
@@ -191,9 +198,9 @@
                             <i class="service__icon fa-solid fa-code"></i>
                             <h3 class="service__title">Desarrollo Web</h3>
                             <p class="service__description">
-                                HTML, CSS, JavaScript, ... y lo que
-                                está por venir... La actitud de aprendizaje
-                                continuo es la clave del éxito.
+                                HTML, CSS, JavaScript, ... y lo que está por
+                                venir... La actitud de aprendizaje continuo es
+                                la clave del éxito.
                             </p>
                         </div>
                     </article>
@@ -203,7 +210,7 @@
                             <i
                                 class="service__icon fa-regular fa-lightbulb"
                             ></i>
-                            
+
                             <h3 class="service__title">
                                 Conocimiento De Negocio
                             </h3>
@@ -220,7 +227,7 @@
                     <article class="services__service">
                         <div class="service__content">
                             <i class="service__icon fa-solid fa-robot"></i>
-                        
+
                             <h3 class="service__title">Diferente</h3>
 
                             <p class="service__description">
@@ -339,7 +346,7 @@
                             <article class="timelines__timeline">
                                 <header class="timeline__header">
                                     <h4 class="timeline__year">
-                                        Julio 2011 - Actualidad
+                                        Julio 2011 - Septiembre 2025
                                     </h4>
                                     <span class="timeline__compay"
                                         >Hoteles Tecnológicos SA</span
@@ -404,6 +411,39 @@
                         <article class="projects__project">
                             <div class="project__container-img">
                                 <img
+                                    src="assests/img/XClone.png"
+                                    class="project__img"
+                                    alt="Imagen de un proyecto"
+                                />
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">XClone</h3>
+
+                                <div class="project__tags">
+                                    <p class="project__tag">
+                                        Clon funcional de Twitter/X (fullstack)
+                                    </p>
+                                </div>
+
+                                <div class="project__icon">
+                                    <a
+                                        href="https://github.com/jesus-sanchezl/xclone"
+                                        class="project__icon-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i
+                                            class="project__icon-github fa-brands fa-github"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__project">
+                            <div class="project__container-img">
+                                <img
                                     src="./assests/img/img portfolio.png"
                                     class="project__img"
                                     alt="Imagen de un proyecto"
@@ -414,8 +454,9 @@
                                 <h3 class="project__title">Este Portfolio</h3>
 
                                 <div class="project__tags">
-                                                <p class="project__tag">Creación de este Portafolio</p>
-                                
+                                    <p class="project__tag">
+                                        Creación de este Portafolio
+                                    </p>
                                 </div>
 
                                 <div class="project__icon">
@@ -438,15 +479,24 @@
                             </div>
 
                             <div class="project__content">
-                                <h3 class="project__title">Consumo energético</h3>
+                                <h3 class="project__title">
+                                    Consumo energético
+                                </h3>
 
                                 <div class="project__tags">
-                                                <p class="project__tag">Simulador de precio de la luz vs. consumo</p>
-
+                                    <p class="project__tag">
+                                        Simulador de precio de la luz vs.
+                                        consumo
+                                    </p>
                                 </div>
 
                                 <div class="project__icon">
-                                    <a href="https://github.com/jesus-sanchezl/Proyecto-Luz" class="project__icon-link">
+                                    <a
+                                        href="https://github.com/jesus-sanchezl/Proyecto-Luz"
+                                        class="project__icon-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
                                         <i
                                             class="project__icon-github fa-brands fa-github"
                                         ></i>
@@ -468,12 +518,18 @@
                                 <h3 class="project__title">TaskApp</h3>
 
                                 <div class="project__tags">
-                                    <p class="project__tag">Aplicación de tareas</p>
-
+                                    <p class="project__tag">
+                                        Aplicación de tareas
+                                    </p>
                                 </div>
 
                                 <div class="project__icon">
-                                    <a href="https://github.com/jesus-sanchezl/Task-App" class="project__icon-link">
+                                    <a
+                                        href="https://github.com/jesus-sanchezl/Task-App"
+                                        class="project__icon-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
                                         <i
                                             class="project__icon-github fa-brands fa-github"
                                         ></i>
@@ -483,90 +539,72 @@
                         </article>
 
                         <article class="projects__project">
-                              <div class="project__container-img">
-                                  <img
-                                      src="assests/img/SimpleTwitter.png"
-                                      class="project__img"
-                                      alt="Imagen de un proyecto"
-                                  />
-                              </div>
-  
-                              <div class="project__content">
-                                  <h3 class="project__title">Simple Twitter</h3>
-  
-                                  <div class="project__tags">
-                                                  <p class="project__tag">API básica con funciones esenciales y reducidas</p>
-  
-                                  </div>
-  
-                                  <div class="project__icon">
-                                      <a href="https://github.com/jesus-sanchezl/SimpleTwitter" class="project__icon-link">
-                                          <i
-                                              class="project__icon-github fa-brands fa-github"
-                                          ></i>
-                                      </a>
-                                  </div>
-                              </div>
+                            <div class="project__container-img">
+                                <img
+                                    src="assests/img/CarXpress.png"
+                                    class="project__img"
+                                    alt="Imagen de un proyecto"
+                                />
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">CarXpress</h3>
+
+                                <div class="project__tags">
+                                    <p class="project__tag">
+                                        API para gestionar coches, usuarios y
+                                        reseñas
+                                    </p>
+                                </div>
+
+                                <div class="project__icon">
+                                    <a
+                                        href="https://github.com/jesus-sanchezl/CarXpress"
+                                        class="project__icon-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i
+                                            class="project__icon-github fa-brands fa-github"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
                         </article>
 
                         <article class="projects__project">
-                              <div class="project__container-img">
-                                  <img
-                                      src="assests/img/CarXpress.png"
-                                      class="project__img"
-                                      alt="Imagen de un proyecto"
-                                  />
-                              </div>
-  
-                              <div class="project__content">
-                                  <h3 class="project__title">CarXpress</h3>
-  
-                                  <div class="project__tags">
-                                                  <p class="project__tag">API para gestionar coches, usuarios y reseñas</p>
-  
-                                  </div>
-  
-                                  <div class="project__icon">
-                                      <a href="https://github.com/jesus-sanchezl/CarXpress" class="project__icon-link">
-                                          <i
-                                              class="project__icon-github fa-brands fa-github"
-                                          ></i>
-                                      </a>
-                                  </div>
-                              </div>
+                            <div class="project__container-img">
+                                <img
+                                    src="assests/img/LinkBoard.png"
+                                    class="project__img"
+                                    alt="Imagen de un proyecto"
+                                />
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">LinkBoard</h3>
+
+                                <div class="project__tags">
+                                    <p class="project__tag">
+                                        API que simula foro para gestionar
+                                        enlaces.
+                                    </p>
+                                </div>
+
+                                <div class="project__icon">
+                                    <a
+                                        href="https://github.com/jesus-sanchezl/LinkBoard"
+                                        class="project__icon-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i
+                                            class="project__icon-github fa-brands fa-github"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
                         </article>
-
-                        <article class="projects__project">
-                              <div class="project__container-img">
-                                  <img
-                                      src="assests/img/LinkBoard.png"
-                                      class="project__img"
-                                      alt="Imagen de un proyecto"
-                                  />
-                              </div>
-  
-                              <div class="project__content">
-                                  <h3 class="project__title">LinkBoard</h3>
-  
-                                  <div class="project__tags">
-                                                  <p class="project__tag">API que simula foro para gestionar enlaces.</p>
-  
-                                  </div>
-  
-                                  <div class="project__icon">
-                                      <a href="https://github.com/jesus-sanchezl/LinkBoard" class="project__icon-link">
-                                          <i
-                                              class="project__icon-github fa-brands fa-github"
-                                          ></i>
-                                      </a>
-                                  </div>
-                              </div>
-                          </article>
-  
-
-                        
-  
-  
                     </div>
                 </div>
             </section>
@@ -578,58 +616,15 @@
                 </header>
 
                 <section class="contact__container">
-                    <div class="contact__form">
-                        <div class="form__group">
-                            <input
-                                type="text"
-                                class="form__input"
-                                name="name"
-                                required
-                                placeholder="Nombre"
-                            />
-                            <label for="name" class="form__label">Nombre</label>
-                        </div>
-
-                        <div class="form__group">
-                            <input
-                                type="email"
-                                class="form__input"
-                                name="email"
-                                required
-                                placeholder="Email"
-                            />
-                            <label for="email" class="form__label">Email</label>
-                        </div>
-
-                        <div class="form__group form__group--textarea">
-                            <textarea
-                                class="form__input form__input--textarea"
-                                name="message"
-                                required
-                                placeholder="Mensaje"
-                            ></textarea>
-                            <label for="message" class="form__label"
-                                >Mensaje</label
-                            >
-                        </div>
-                    </div>
-
-                    <input
-                        type="submit"
-                        class="form__button"
-                        value="Enviar mensaje"
-                    />
-                </section>
-            </section>
-
-            <!-- FOOTER -->
-
-            <footer class="layout__footer">
-                <div class="footer__container">
-                    <section class="footer__top">
+                    <div class="contact__links">
                         <ul class="footer__social">
                             <li class="social__item">
-                                <a href="mailto:jesus-sanchezl@outlook.es" class="social__footer">
+                                <a
+                                    href="mailto:jesus-sanchezl@outlook.es"
+                                    class="social__footer"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <i
                                         class="social__img fa-regular fa-envelope"
                                     ></i>
@@ -637,7 +632,12 @@
                             </li>
 
                             <li class="social__item">
-                                <a href="https://www.linkedin.com/in/jesus-sanchezl/" class="social__footer">
+                                <a
+                                    href="https://www.linkedin.com/in/jesus-sanchezl/"
+                                    class="social__footer"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <i
                                         class="social__img fa-brands fa-linkedin"
                                     ></i>
@@ -645,18 +645,29 @@
                             </li>
 
                             <li class="social__item">
-                                <a href="https://github.com/jesus-sanchezl" class="social__footer">
+                                <a
+                                    href="https://github.com/jesus-sanchezl"
+                                    class="social__footer"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <i
                                         class="social__img fa-brands fa-github"
                                     ></i>
                                 </a>
                             </li>
                         </ul>
-                    </section>
+                    </div>
+                </section>
+            </section>
 
-                    <section class="footer bottom">
+            <!-- FOOTER -->
+
+            <footer class="layout__footer">
+                <div class="footer__container">
+                    <section class="footer__bottom">
                         <div class="footer__copyrigth">
-                            <span class="coyright__text">
+                            <span class="copyright__text">
                                 &copy; 2024 Jesús Sánchez
                             </span>
                         </div>
